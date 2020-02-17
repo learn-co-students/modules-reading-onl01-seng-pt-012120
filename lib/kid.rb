@@ -1,5 +1,6 @@
+require_relative './dance_module.rb'
+
 class Kid
-  
   include Dance
  
   attr_accessor :name
@@ -7,5 +8,4 @@ class Kid
   def initialize(name)
     @name = name
   end
-  
 end
